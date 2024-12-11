@@ -2,9 +2,6 @@ apiVersion: deploy.cloud.google.com/v1
 kind: Target
 metadata:
   name: prod
-  annotations: {}
-  labels: {}
-description: prod
-requireApproval: true
+  description: Production Environment
 gke:
   cluster: projects/celestial-torus-444415-r6/locations/us-central1-c/clusters/cluster-2
